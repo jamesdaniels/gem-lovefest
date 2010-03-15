@@ -4,9 +4,11 @@
     %title= defined?(title) ? "Gem Love - #{title}" : "Gem Love"
     %link(rel="stylesheet" type="text/css" href="/main.css")
   %body
+    %img#logoface(src="/images/logoface.png" alt="GemLove.org")
     %nav
       %ul#navigation
         %li
           %a(href="/") Home
-    = yield
+    %div#content
+      = yield
   

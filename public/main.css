@@ -1,3 +1,36 @@
+/*
+
+background-color:    f7f4e6
+primary-font-color:  300505
+light-color:         cbb8ac
+light-grey-color:    efebeb
+
+*/
+
+body, html {padding: 0;}
+
+body {background: #f7f4e6 url(/images/logobit.png) top left no-repeat; color: #300505;}
+
+img#logoface {margin-top: 50px;}
+img#logoface, div#content, ul#navigation {margin-left: 250px;}
+
 ul#gem_notes .gem_name {
    display: none;
+}
+
+ul.notes {padding: 0;}
+li.note {
+  background: white url(/images/hotlips_1.jpg) center right no-repeat; 
+  width: 500px; 
+  list-style: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.gem_name:before {
+  content:"Dear ";
+}
+
+.gem_name:after {
+  content:",";
 }
